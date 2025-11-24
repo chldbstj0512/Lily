@@ -16,7 +16,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "http://127.0.0.1:5000"}}, supports_credentials=True)
 
 # CORS(app)
-API_KEY = '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'
+API_KEY = #
 openai.api_key = API_KEY
 
 
